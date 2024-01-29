@@ -28,7 +28,7 @@ int main()
 			else
 				cout << "> ";
 		}
-		cout << "\n";   
+		cout << "\n";    
 	} 
 
 	return 0;
