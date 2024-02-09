@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int a[10001];  
+int a[10001];
 int n, i, j, temp, min;
 
 int main() {
