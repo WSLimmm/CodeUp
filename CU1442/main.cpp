@@ -3,7 +3,7 @@
 
 int a[10001];
 int n, i, j, temp, min;
-
+ 
 int main() {
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
