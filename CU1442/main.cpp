@@ -3,7 +3,7 @@ using namespace std;
 
 int a[10001];
 int n, temp;
-  
+   
 int main() 
 {
     cin >> n;
