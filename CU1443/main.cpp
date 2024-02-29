@@ -1,14 +1,15 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+#include <iostream>
+using namespace std;
+
 int a[10001];
 int n, i, j, temp, key;
+
 int main() 
 {
-
-    scanf("%d", &n);
+    cin >> n;
 
     for (i = 1; i <= n; i++)
-        scanf("%d", &a[i]);
+        cin >> a[i];
 
     for (i = 2; i <= n; i++)
     {
@@ -23,7 +24,7 @@ int main()
     }
 
     for (i = 1; i <= n; i++)
-        printf("%d\n", a[i]);
+        cout << a[i] << endl;
 
     return 0;
 }
