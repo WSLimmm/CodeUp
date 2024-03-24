@@ -12,7 +12,7 @@ int main()
         cin >> a[i];
 
     for (i = 2; i <= n; i++)
-    {   
+    {    
         key = a[i];
         
         for (j = i - 1; j >= 1 && a[j] >= key; j--)
