@@ -11,7 +11,7 @@ int main()
     for (i = 1; i <= n; i++)
         cin >> a[i];
 
-    for (i = 2; i <= n; i++) 
+    for (i = 2; i <= n; i++)
     {     
         key = a[i];
         
